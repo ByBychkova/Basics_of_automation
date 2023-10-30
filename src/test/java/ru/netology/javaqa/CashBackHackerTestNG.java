@@ -2,10 +2,10 @@ package ru.netology.javaqa;
 
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.*;
+import static org.testng.AssertJUnit.assertEquals;
 
 
-public class CashBackHackerTest {
+public class CashBackHackerTestNG {
     @Test
     public void boundaryValue1() {
         CashBackHacker service = new CashBackHacker();
@@ -51,6 +51,4 @@ public class CashBackHackerTest {
         int expected = 500;
         assertEquals(expected, actual);
     }
-
-
 }
