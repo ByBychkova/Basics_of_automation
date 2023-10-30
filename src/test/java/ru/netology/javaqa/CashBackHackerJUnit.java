@@ -15,7 +15,7 @@ public class CashBackHackerJUnit {
         assertEquals(expected, actual);
     }
 
-    @org.testng.annotations.Test
+    @ Test
     public void boundaryValue2() {
         CashBackHacker service = new CashBackHacker();
         int amount = 1;
